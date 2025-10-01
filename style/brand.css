@@ -34,7 +34,7 @@
 }
 .brand .card-item:hover img{
     background: #00000049;
-    filter: blur(2px) grayscale(.3);
+    filter: blur(2px) brightness(80%) ;
     backdrop-filter: blur(2px);
     transition: .4s all ease-out;
 }

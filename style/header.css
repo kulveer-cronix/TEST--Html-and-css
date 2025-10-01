@@ -102,7 +102,7 @@
 .icon svg:first-child{
     margin-left: 20px;
 }
-@media screen and (min-width:767px) {
+@media screen and (min-width:997px) {
     .header .header_left{
         display: flex;
     }

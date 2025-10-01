@@ -10,14 +10,14 @@
     height: 100vh;
     top: 0;
     z-index: 9999;
-    left: -50rem;
+    left: -150rem;
     transition: .5s all linear;
 }
 .nav-menu.active{
     left: 0;
 }
 .nav-menu .nav-item{
-    margin: 0 32px;
+    margin: 0 12px;
     margin-top: 37px;
     padding: 5px 0;
 }
@@ -36,7 +36,15 @@
 .nav-item .nav-link:hover{
     border-color: #4E4E4E;
 }
-@media screen and (min-width:767px) {
+@media screen and (min-width:1100px) {
+  .nav-menu .nav-item{
+    margin: 0 32px;
+    margin-top: 37px;
+  }
+}
+
+
+@media screen and (min-width:997px) {
   .nav-menu{
     display: flex;
     flex-direction: row;
@@ -46,6 +54,10 @@
     height: auto;
     left: 0;
     justify-content: center;
+  }
+  .nav-menu .nav-item{
+    margin: 0 12px;
+    margin-top: 37px;
   }
 
 }

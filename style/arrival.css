@@ -33,14 +33,22 @@
     flex-direction: column;
     gap: 20px;
 }
-@media screen and (min-width:767px) {
+@media screen and (min-width:1100px) {
+    .arrival-img .card-img:last-child{
+        flex-direction: row !important;
+    }
+}
+@media screen and (min-width:977px) {
     .arrival-img{
         padding: 0 72px;
-        gap: 25px;     
+        gap: 25px;   
     }
     .arrival-img .card-img{
         gap: 25px;       
         flex-direction: row;
+    }
+    .arrival-img .card-img:last-child{
+        flex-direction: column;
     }
 
     
