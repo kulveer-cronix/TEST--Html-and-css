@@ -1,0 +1,47 @@
+.arrival .heading{
+   text-align: center;
+}
+.arrival .heading h2{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.arrival-img{
+    margin-top: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.arrival-img img{
+    width: 100%;
+}
+.arrival-img .card-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.card-img .img-small{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (min-width:767px) {
+    .arrival-img{
+        padding: 0 72px;
+        gap: 25px;     
+    }
+    .arrival-img .card-img{
+        gap: 25px;       
+        flex-direction: row;
+    }
+
+    
+}

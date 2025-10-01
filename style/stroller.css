@@ -1,0 +1,56 @@
+.stroller{
+    margin: 10px auto 60px;
+}
+.stroller .info-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 30px;
+}
+.stroller .info-card{
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+.info-card img{
+    height: 100%;
+    width: 100%;
+}
+.info-card .info-text{
+    position: absolute;
+    bottom: -6%;
+    padding: 10px;  
+    transition: .5s all ;  
+}
+.info-card:hover .info-text{
+    bottom: 5%;
+}
+.info-text h2{
+    color: #FFF;
+    font-family: 'Futura bold';
+    font-size: 48px;
+    font-style: normal;
+    line-height: 1.3; 
+}
+.info-text p{
+    color: #FFF;
+    font-family: Futura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+}
+.info-card .info-text a.link{
+    color: #FFF;
+    text-decoration: underline;
+    margin-top: 60px;
+    transition: .3s all;
+}
+.info-card .info-text a.link:hover{
+    text-decoration: none;
+    margin-top: 20px;
+}
+@media screen and (min-width:767px) {
+    .stroller{
+        margin: 120px auto 60px;
+    }
+}

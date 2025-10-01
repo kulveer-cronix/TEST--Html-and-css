@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap');
+.shipping{
+    background-color: #242424;
+}
+.shipping p{
+    display: flex;
+    height: 31px;
+    padding: 3.59px 0 4.59px 0;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+}
+.header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 9999;
+}
+.header .container.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10px;
+}
+.header .container .menu-toggle{
+    display: block;
+    z-index: 99999;
+    
+}
+.header .header_left{
+    display: none;
+    align-items: center;
+
+}
+.header_left li a{
+    color: #4E4E4E;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: uppercase;
+    padding: 0 8px;
+    margin: 0 8px;
+}
+.header_left li:not(:first-child){
+    border-left: 1px solid #4E4E4E;
+    border-width: 30%;
+}
+.header_left li a:hover{
+    color: #242424;
+    transform: scale(1.1);
+}
+.header-brand-name{
+    width: 153px;
+    height: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+.header_right{
+    display: flex;
+    align-items: center;
+}
+.header_right .input{
+    display: flex;
+    align-items: center;
+    border-radius: 41px;
+    flex-shrink: 0;
+}
+.header_right .input input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+    padding: 11px 16px 10px;
+}
+.input input:placeholder-shown{
+    color: #7E7E7E;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+
+.input svg{
+    margin-block: 11px 10px;
+    margin-right: 16px;
+    width: 20px;
+    height: 20px;
+}
+.icon svg:not(:last-child){
+    display: none;
+}
+.icon svg:not(:last-child){
+    margin-right: 19px;
+}
+.icon svg:first-child{
+    margin-left: 20px;
+}
+@media screen and (min-width:767px) {
+    .header .header_left{
+        display: flex;
+    }
+    .header .container.brand{
+        margin-top: 27px;
+        padding: 0;
+    }
+    .header .container .menu-toggle{
+        display: none;
+    }
+    .header_right .input input{
+        display: flex;
+    }
+    .icon svg:not(:last-child){
+        display: inline-block;
+    }
+    .header_right .input{
+        background: #F4F4F4;
+    }
+}

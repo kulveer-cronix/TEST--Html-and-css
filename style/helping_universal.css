@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: contain;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: roboto;
+    background-color: #FFF;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    display: inline-block;
+}
+svg{
+    cursor: pointer;
+}
+@font-face {
+    font-family: "Futura";
+    src: url(../font/FuturaCyrillicBook.woff);
+}
+@font-face {
+    font-family: "Futura bold";
+    src: url(../font/FuturaCyrillicMedium.woff);
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(../font/Gotham\ Regular.otf);
+}
+.section-spacer{
+    margin: 50px auto;
+}
+@media screen and (min-width:767px) {
+    .section-spacer{
+        margin: 100px auto;
+    }
+    
+}

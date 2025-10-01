@@ -1,0 +1,28 @@
+.Traditional-stroller{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+   align-items: end;
+   gap: 12px;
+}
+.Traditional-stroller h2{
+    color: #121212;
+    font-family: "Tenor Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Traditional-stroller p{
+    color:  #121212;
+    font-family: Futura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+@media screen and (min-width:767px) {
+    .Traditional-stroller{
+        gap: 120px;
+    }
+    
+}
