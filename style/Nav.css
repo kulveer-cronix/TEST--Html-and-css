@@ -18,7 +18,7 @@
 }
 .nav-menu .nav-item{
     margin: 0 32px;
-    margin-top: 29px;
+    margin-top: 37px;
     padding: 5px 0;
 }
 .nav-item .nav-link{
@@ -47,8 +47,5 @@
     left: 0;
     justify-content: center;
   }
-  .nav-item {
-    
-    padding: 12px 0;
-  }
+
 }
