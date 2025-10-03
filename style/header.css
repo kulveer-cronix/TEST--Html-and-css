@@ -53,9 +53,13 @@
     color: #242424;
     transform: scale(1.1);
 }
-.header-brand-name{
+.brand-link{
+    display: inline-block;
     width: 153px;
     height: 38px;
+}
+.header-brand-name{
+    
     left: 50%;
     transform: translateX(-50%);
     position: absolute;

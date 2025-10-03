@@ -56,11 +56,14 @@
     opacity: 1;
 }
 @media  (min-width:767px) {
+    .card-link{
+        width: 100%;
+    }
     .top-category{
         padding: 0 40px;
     }
     .top-cate-card img{
-        width: 327px;
+        width: 100%;
     }
     .top-category .top-cate-card{
         width: auto;
