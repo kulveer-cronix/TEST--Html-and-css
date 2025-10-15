@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap');
 .shipping{
     background-color: #242424;
+    padding: 3.59px 0 4.59px 0;
+    height: 31px;
 }
 .shipping p{
-    display: flex;
-    height: 31px;
-    padding: 3.59px 0 4.59px 0;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-    position: relative;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+
+letter-spacing: 1.5px;
+    
 }
 .header{
     top: 0;
@@ -30,12 +35,12 @@
     z-index: 99999;
     
 }
-.header .header_left{
+.header .header-left{
     display: none;
     align-items: center;
 
 }
-.header_left li a{
+.header-left li a{
     color: #4E4E4E;
     font-family: Roboto;
     font-size: 14px;
@@ -45,37 +50,38 @@
     padding: 0 8px;
     margin: 0 8px;
 }
-.header_left li:not(:first-child){
+.header-left li:not(:first-child){
     border-left: 1px solid #4E4E4E;
     border-width: 30%;
 }
-.header_left li a:hover{
+.header-left li a:hover{
     color: #242424;
     transform: scale(1.1);
 }
-.brand-link{
-    display: inline-block;
-    width: 153px;
-    height: 38px;
-}
-.header-brand-name{
-    
+h1{
+    line-height: 0;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-
+    /* position: relative; */
 }
-.header_right{
+.brand-link{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.header-right{
     display: flex;
     align-items: center;
 }
-.header_right .input{
+.header-right .input{
     display: flex;
     align-items: center;
     border-radius: 41px;
     flex-shrink: 0;
 }
-.header_right .input input{
+.header-right .input input{
     background-color: transparent;
     border: none;
     outline: none;
@@ -107,7 +113,7 @@
     margin-left: 20px;
 }
 @media screen and (min-width:997px) {
-    .header .header_left{
+    .header .header-left{
         display: flex;
     }
     .header .container.brand{
@@ -117,13 +123,13 @@
     .header .container .menu-toggle{
         display: none;
     }
-    .header_right .input input{
+    .header-right .input input{
         display: flex;
     }
     .icon svg:not(:last-child){
         display: inline-block;
     }
-    .header_right .input{
+    .header-right .input{
         background: #F4F4F4;
     }
 }

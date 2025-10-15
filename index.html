@@ -1,456 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST-Kidsland</title>
-    <link rel="stylesheet" href="./style/helping_universal.css">
-    <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/Nav.css">
-    <link rel="stylesheet" href="./style/hero-kidsland.css">
-    <link rel="stylesheet" href="./style/categroy-link.css">
-    <link rel="stylesheet" href="./style/traditional.css">
-    <link rel="stylesheet" href="./style/stroller.css">
-    <link rel="stylesheet" href="./style/top-category.css">
-    <link rel="stylesheet" href="./style/arrival.css">
-    <link rel="stylesheet" href="./style/warehouse.css">
-    <link rel="stylesheet" href="./style/brand.css">
-    <link rel="stylesheet" href="./style/footer.css">
-    <link rel="stylesheet" href="./style/keyframe.css">
-   
-</head>
-<body>
-    <header class="header">
-        <div class="shipping">
-            <p>FREE SHIPPING ON ORDERS OVER $49</p>
-        </div>
-        <div class="brand container">
-            <svg class="menu-toggle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12C1 11.4477 1.44772 11 2 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13H2C1.44772 13 1 12.5523 1 12Z" fill="#121212"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 18C1 17.4477 1.44772 17 2 17H22C22.5523 17 23 17.4477 23 18C23 18.5523 22.5523 19 22 19H2C1.44772 19 1 18.5523 1 18Z" fill="#121212"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 6C1 5.44772 1.44772 5 2 5H22C22.5523 5 23 5.44772 23 6C23 6.55228 22.5523 7 22 7H2C1.44772 7 1 6.55228 1 6Z" fill="#121212"/>
-            </svg>
-            <ul class="header_left">
-                <li class="header_item"><a href="#" class="header_link">brands</a></li>
-                <li class="header_item"><a href="#" class="header_link">Store Locator</a></li>
-                <li class="header_item"><a href="#" class="header_link">Outlet</a></li>
-                <li class="header_item"><a href="#" class="header_link">Sale</a></li>
-            </ul>
-            <a href="" class="brand-link">
-                <svg class="header-brand-name" xmlns="http://www.w3.org/2000/svg" width="104" height="32" viewBox="0 0 104 32" fill="none">
-                    <path d="M1.01562 5.18945H3.21211V19.1135L9.20544 13.3105H12.331L5.97248 19.3125L12.9808 26.4977H9.74248L3.21211 19.5653V26.4977H1.01562V5.18945Z" fill="#303030"/>
-                    <path d="M16.3792 6.53906C17.2814 6.53906 17.9849 7.27049 17.9849 8.14713C17.9849 9.02377 17.3083 9.7552 16.3792 9.7552C15.4501 9.7552 14.7734 9.07755 14.7734 8.14713C14.7734 7.21671 15.477 6.53906 16.3792 6.53906ZM15.2783 13.3048H17.4747V26.492H15.2783V13.3048Z" fill="#303030"/>
-                    <path d="M32.788 24.1528H32.7343C31.918 25.6479 30.033 26.8311 27.67 26.8311C23.9859 26.8311 21.0859 23.8463 21.0859 19.8987C21.0859 15.9511 23.8732 12.9663 28.0083 12.9663C32.1435 12.9663 31.5259 13.8106 32.7343 15.2197H32.788V5.18945H34.9845V26.4923H32.788V24.1528ZM28.1158 14.9938C25.2748 14.9938 23.4435 17.1343 23.4435 19.8987C23.4435 22.6631 25.2748 24.8036 28.1158 24.8036C30.9567 24.8036 32.788 22.6631 32.788 19.8987C32.788 17.1343 30.9567 14.9938 28.1158 14.9938Z" fill="#303030"/>
-                    <path d="M39.3132 23.0235C40.1832 24.0937 41.1445 24.7982 42.6912 24.7982C44.2379 24.7982 45.5912 24.2067 45.5912 22.7707C45.5912 21.3347 44.1842 20.9959 42.7771 20.684C40.2745 20.1193 38.1318 19.5868 38.1318 16.8493C38.1318 14.1119 40.6075 12.9609 43.0564 12.9609C45.5053 12.9609 46.6277 13.6655 47.5299 15.3542L45.6986 16.5643C45.1347 15.6339 44.2056 14.9885 42.9114 14.9885C41.6171 14.9885 40.3229 15.5801 40.3229 16.8224C40.3229 18.0648 41.8964 18.3982 43.6418 18.7371C45.9779 19.1888 47.9488 20.0332 47.9488 22.6846C47.9488 25.3361 45.3012 26.8258 42.6858 26.8258C40.0705 26.8258 38.8568 26.2342 37.5625 24.3734L39.3079 23.0181L39.3132 23.0235Z" fill="#303030"/>
-                    <path d="M51.2188 5.18945H53.4152V26.4923H51.2188V5.18945Z" fill="#303030"/>
-                    <path d="M57.6049 14.9944C58.9582 13.6122 60.9238 12.9668 62.841 12.9668C66.7238 12.9668 68.3564 14.8276 68.3564 18.5493V24.2125C68.3564 24.9708 68.4423 25.8206 68.5551 26.4928H66.4445C66.3049 25.9012 66.3049 25.0838 66.3049 24.5191H66.2512C65.3812 25.8744 63.9151 26.8317 61.9173 26.8317C59.9195 26.8317 57.0195 25.4764 57.0195 22.9164C57.0195 18.5493 62.0838 18.2965 65.3221 18.2965H66.1653V17.9039C66.1653 15.9893 64.9569 14.9997 62.9001 14.9997C60.8432 14.9997 60.0323 15.4784 58.9905 16.4357L57.6103 14.9997L57.6049 14.9944ZM63.9634 20.152C61.1762 20.152 59.3771 20.9103 59.3771 22.6905C59.3771 24.4707 60.6177 24.9708 62.2771 24.9708C64.8119 24.9708 66.1062 23.1369 66.1599 20.9964V20.152H63.9634Z" fill="#303030"/>
-                    <path d="M72.3745 16.4298C72.3745 15.2198 72.2617 14.1764 72.2617 13.2998H74.3454C74.3454 14.0043 74.3991 14.7357 74.3991 15.4672H74.4528C75.0436 14.171 76.6762 12.9609 78.8404 12.9609C82.3043 12.9609 83.851 15.1606 83.851 18.3445V26.487H81.6545V18.5703C81.6545 16.3707 80.6986 14.9939 78.6417 14.9939C76.5849 14.9939 74.5602 17.0537 74.5602 20.0655V26.4924H72.3638V16.4298H72.3745Z" fill="#303030"/>
-                    <path d="M98.9716 24.1528H98.9179C98.1016 25.6479 96.2166 26.8311 93.8536 26.8311C90.1695 26.8311 87.2695 23.8463 87.2695 19.8987C87.2695 15.9511 90.0568 12.9663 94.1919 12.9663C98.3271 12.9663 97.7095 13.8106 98.9179 15.2197H98.9716V5.18945H101.168V26.4923H98.9716V24.1528ZM94.2993 14.9938C91.4584 14.9938 89.6271 17.1343 89.6271 19.8987C89.6271 22.6631 91.4584 24.8036 94.2993 24.8036C97.1403 24.8036 98.9716 22.6631 98.9716 19.8987C98.9716 17.1343 97.1403 14.9938 94.2993 14.9938Z" fill="#303030"/>
-                </svg>
-            </a>
-            <ul class="header_right">
-                <li class="input"><input type="text" placeholder="What are you looking for?">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M19.8087 18.8783L14.9628 13.9683C16.238 12.4444 17.0882 10.582 17.0882 8.46561C17.0032 3.80952 13.2625 0 8.50159 0C3.7407 0 0 3.80952 0 8.46561C0 13.1217 3.82572 16.9312 8.50159 16.9312C10.542 16.9312 12.4973 16.1693 14.0276 14.8995L18.8735 19.8095C19.1286 20.0635 19.5537 20.0635 19.8087 19.8095C20.0638 19.6402 20.0638 19.2169 19.8087 18.8783ZM1.27524 8.46561C1.27524 4.57143 4.42083 1.3545 8.41658 1.3545C12.4123 1.3545 15.5579 4.48677 15.5579 8.46561C15.5579 12.4444 12.4123 15.5767 8.41658 15.5767C4.42083 15.5767 1.27524 12.4444 1.27524 8.46561Z" fill="#4E4E4E"/>
-                    </svg>
-                </li>
-                <li class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <g filter="url(#filter0_d_1_30)">
-                            <path d="M22.6992 22.6998C20.2992 17.4998 16.6992 14.7998 11.9992 14.7998C7.39916 14.7998 3.79916 17.3998 1.29916 22.5998C1.09916 22.9998 1.29916 23.3998 1.69916 23.5998C2.09916 23.7998 2.49916 23.5998 2.69916 23.1998C4.89916 18.5998 7.99916 16.2998 11.9992 16.2998C15.9992 16.2998 19.0992 18.5998 21.2992 23.3998C21.4992 23.7998 21.8992 23.8998 22.2992 23.7998C22.6992 23.4998 22.8992 23.0998 22.6992 22.6998Z" fill="#4E4E4E"/>
-                            <path d="M12.4992 12.8002C15.9992 12.8002 18.6992 10.0002 18.6992 6.6002C18.6992 3.2002 15.9992 0.200195 12.4992 0.200195C8.99922 0.200195 6.19922 3.0002 6.19922 6.5002C6.19922 10.0002 8.99922 12.8002 12.4992 12.8002ZM12.4992 1.8002C15.0992 1.8002 17.2992 3.9002 17.2992 6.6002C17.2992 9.3002 15.1992 11.4002 12.4992 11.4002C9.79922 11.4002 7.79922 9.10019 7.79922 6.5002C7.79922 3.9002 9.89922 1.8002 12.4992 1.8002Z" fill="#4E4E4E"/>
-                        </g>
-                        <defs>
-                            <filter id="filter0_d_1_30" x="-4" y="0" width="32" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                            <feOffset dy="4"/>
-                            <feGaussianBlur stdDeviation="2"/>
-                            <feComposite in2="hardAlpha" operator="out"/>
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_30"/>
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_30" result="shape"/>
-                            </filter>
-                        </defs>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M21.6005 2.29993C19.2005 0.399929 16.2005 0.599929 13.7005 2.29993C13.1005 2.69993 12.5005 3.29993 12.0005 3.99993C11.5005 3.29993 10.9005 2.69993 10.3005 2.29993C7.80048 0.599929 4.80048 0.299929 2.40048 2.29993C-0.199519 4.39993 -0.49952 8.29993 1.40048 11.4999C1.50048 11.5999 1.50048 11.6999 1.60048 11.7999L1.80048 12.0999L2.00048 12.3999C2.00048 12.4999 2.10048 12.4999 2.10048 12.5999L2.30048 12.9999L2.60048 13.3999L3.00048 13.7999L3.40048 14.1999L3.80048 14.6999L4.40048 15.3999L4.90048 15.8999L5.70048 16.6999L6.20048 17.2999L6.80048 17.8999L7.70048 18.7999L8.30048 19.3999L9.00048 20.0999L10.1005 21.1999L11.2005 22.2999C11.5005 22.5999 11.9005 22.5999 12.2005 22.2999C12.2005 22.2999 12.3005 22.2999 12.3005 22.1999C12.7005 21.8999 13.0005 21.4999 13.4005 21.1999L14.4005 20.2999L15.4005 19.3999C15.6005 19.2999 15.7005 19.0999 15.9005 18.9999L16.8005 18.1999L17.7005 17.2999L18.6005 16.3999L19.2005 15.7999L19.7005 15.2999L20.2005 14.7999L20.6005 14.2999L21.0005 13.7999C21.1005 13.6999 21.1005 13.6999 21.2005 13.5999L21.6005 13.1999C21.7005 13.0999 21.7005 13.0999 21.8005 12.9999L22.1005 12.5999L22.4005 12.1999C22.6005 11.9999 22.7005 11.7999 22.8005 11.5999C24.5005 8.29993 24.2005 4.39993 21.6005 2.29993ZM11.5005 8.19993C11.6005 7.89993 11.7005 7.49993 11.9005 7.09993L12.0005 6.89993L12.1005 7.09993C12.3005 7.49993 12.4005 7.89993 12.5005 8.19993C12.7005 8.89993 12.4005 9.19993 12.0005 9.19993C11.6005 9.19993 11.3005 8.79993 11.5005 8.19993ZM21.3005 10.7999C21.3005 10.8999 21.2005 10.9999 21.2005 10.9999L21.0005 11.2999L20.9005 11.3999L20.7005 11.6999L20.5005 11.9999L20.2005 12.2999L19.9005 12.6999L19.6005 13.0999L19.2005 13.4999L18.6005 14.0999L18.2005 14.4999L17.5005 15.1999L16.7005 15.9999L16.2005 16.4999L15.3005 17.2999L14.1005 18.4999L12.8005 19.6999L11.8005 20.5999L10.9005 19.6999L9.60048 18.3999L8.70048 17.4999L7.90048 16.5999L7.00048 15.8999L6.30048 15.0999L5.80048 14.5999L5.20048 13.9999L4.80048 13.5999L4.40048 13.1999L4.10048 12.7999L3.70048 12.2999L3.40048 11.9999L3.20048 11.6999L3.00048 11.2999L2.80048 10.9999C2.70048 10.8999 2.70048 10.7999 2.60048 10.7999C1.10048 8.19993 1.30048 5.09993 3.30048 3.49993C5.10048 1.99993 7.40048 2.19993 9.40048 3.59993C10.0005 3.99993 10.6005 4.59993 11.1005 5.39993C10.6005 6.29993 10.2005 7.09993 10.0005 7.79993C9.60048 9.29993 10.5005 10.6999 12.0005 10.7999C13.5005 10.7999 14.4005 9.39993 14.0005 7.89993V7.79993V7.69993C14.0005 7.69993 14.0005 7.69993 14.0005 7.59993C13.8005 6.89993 13.4005 6.19993 13.0005 5.39993C13.4005 4.59993 14.0005 3.99993 14.5005 3.59993C16.5005 2.19993 18.8005 1.99993 20.6005 3.49993C22.7005 5.09993 22.9005 8.19993 21.3005 10.7999Z" fill="#4E4E4E"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <g clip-path="url(#clip0_1_37)">
-                            <path d="M21.7007 5.9002C21.7007 5.5002 21.3007 5.2002 21.0007 5.2002H17.0007V5.0002V4.8002C16.8007 2.2002 14.7007 0.200195 12.1007 0.200195C9.4007 0.200195 7.2007 2.3002 7.1007 5.0002V5.2002H3.0007C2.6007 5.2002 2.3007 5.5002 2.3007 5.9002L0.300698 22.3002C0.200698 22.7002 0.600698 23.1002 1.0007 23.1002H23.0007C23.5007 23.1002 23.8007 22.7002 23.7007 22.3002L21.7007 5.9002ZM8.6007 5.1002V4.9002C8.8007 3.1002 10.3007 1.8002 12.1007 1.8002C14.0007 1.8002 15.5007 3.3002 15.6007 5.1002V5.3002H8.6007V5.1002ZM1.8007 21.7002L3.7007 6.8002H7.0007L6.8007 10.2002C6.3007 10.4002 6.0007 10.9002 6.0007 11.5002C6.0007 12.3002 6.7007 13.0002 7.5007 13.0002C8.3007 13.0002 9.0007 12.3002 9.0007 11.5002C9.0007 11.0002 8.7007 10.5002 8.3007 10.2002L8.5007 6.7002H15.6007L15.7007 10.2002C15.3007 10.5002 15.0007 11.0002 15.0007 11.5002C15.0007 12.3002 15.7007 13.0002 16.5007 13.0002C17.3007 13.0002 18.0007 12.3002 18.0007 11.5002C18.0007 10.9002 17.7007 10.4002 17.2007 10.2002L17.1007 6.8002H20.4007L22.2007 21.7002H1.8007Z" fill="#4E4E4E"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_1_37">
-                            <rect width="24" height="24" fill="white"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TEST-Kidsland</title>
+        <link rel="stylesheet" href="./style/helping-universal.css">
+        <link rel="stylesheet" href="./style/header.css">
+        <link rel="stylesheet" href="./style/nav.css">
+        <link rel="stylesheet" href="./style/hero-kidsland.css">
+        <link rel="stylesheet" href="./style/categroy-link.css">
+        <link rel="stylesheet" href="./style/traditional.css">
+        <link rel="stylesheet" href="./style/stroller.css">
+        <link rel="stylesheet" href="./style/top-category.css">
+        <link rel="stylesheet" href="./style/arrival.css">
+        <link rel="stylesheet" href="./style/warehouse.css">
+        <link rel="stylesheet" href="./style/brand.css">
+        <link rel="stylesheet" href="./style/footer.css">
+        <link rel="stylesheet" href="./style/keyframe.css">
 
-            </ul>
-        </div>
-        <nav class="nav container">
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Baby Gear & Travel</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Baby Care & Feeding</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Baby Apparel & Accessories</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Toys & Learning</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">pet</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">shop by brand</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">sale</a></li>
-    
-            </ul>
-        </nav>
-    </header>
-    <!-- hero-section start -->
-    <section class="hero">
-        <div class="container">
-            <h2>Discover the Finest Baby Essentials for Your Little One</h2>
-            <p>Explore our collection of luxury strollers, car seats, and newborn must-haves.</p>
-            <a href="#">SHOP NOW</a>
-        </div>
-    </section>
-    <!-- hero-section end -->
-     <main>
-        <!-- category section star -->
-        <section class="category-link container section-spacer">
-            <ul class="category-list">
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-1.png" alt="link img 1">
-                        </div>
-                        <h2>BABY STROLLERS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-2.png" alt="link img 1">
-                        </div>
-                        <h2>INFANT CAR SEATS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-3.png" alt="link img 1">
-                        </div>
-                        <h2>CONVERTIBLE CAR SEATS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-4.png" alt="link img 1">
-                        </div>
-                        <h2>BABY HIGH CHAIRS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-5.png" alt="link img 1">
-                        </div>
-                        <h2>TRAVEL CRIBS & PLAYARDS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-6.png" alt="link img 1">
-                        </div>
-                        <h2>BABY CARRIERS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-7.png" alt="link img 1">
-                        </div>
-                        <h2>LIGHTWEIGHT STROLLERS</h2>
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a href="#" class="category-link">
-                        <div class="link-img">
-                            <img src="./img/category-item-8.png" alt="link img 1">
-                        </div>
-                        <h2>BABY STROLLERS</h2>
-                    </a>
-                </li>           
-            </ul>
-        </section>
-        <!-- category section end -->
-        <!-- Traditional stroller section start -->
-        <section class="Traditional-stroller container section-spacer">
-            <h2>Traditional stroller steering, compact fold to create the ideal vehicle for getting around town.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Est quam elementum ultricies aliquet. Lectus at lectus ut in integer ac et dolor porttitor. Lacus morbi libero fringilla sit nec felis. Scelerisque tempus rutrum tincidunt in. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Est quam elementum ultricies aliquet.</p>
-        </section>
-        <!-- Traditional stroller section end -->
-        <!-- stroller section start -->
-        <section class="stroller container section-spacer">
-            <ul class="info-list">
-                <li class="info-item">
-                    <a href="#" class="info-link">
-                        <div class="info-card">
-                            <img src="./img/info-1.png" alt="nuna info">
-                            <div class="info-text">
-                                <h2>Made for Strolling</h2>
-                                <p>Nuna's premium strollers go the distance with tough tires ready for any terrain and progressive suspension technology for top-of-the-line comfort.</p>
-                                <span class="link">SHOP NOW</span>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="info-item">
-                    <a href="#" class="info-link">
-                        <div class="info-card">
-                            <img src="./img/info-2.png" alt="nuna info">
-                            <div class="info-text">
-                                <h2>Crafted for Growing</h2>
-                                <p>Nuna's luxurious car seats are engineered for growth keeping baby to 'tween safe at every stage. </p>
-                                <span class="link">SHOP NOW</span>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <!-- stroller section end -->
-        <!-- top category section start -->
-        <section class="top-category container section-spacer">
-            <div class="heading"><h2>Top Categories</h2></div>
-            <ul class="top-cate-card">
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="card-img">
-                            <img src="./img/top-1.png" alt="">
-                        </div>
-                        <h3>Men’s Apparel & Accessories</h3>                      
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="card-img">
-                            <img src="./img/top-2.png" alt="">
-                        </div>
-                        <h3>Women’s Apparel & Accessories </h3>                       
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="card-img">
-                            <img src="./img/top-3.png" alt="">
-                        </div>
-                        <h3>Kid’s Apparel & Accessories</h3>                       
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="card-img">
-                            <img src="./img/top-4.png" alt="">
-                        </div>
-                        <h3>Travel</h3>                         
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <!-- top category section end -->
-        <!-- New Arrivals section start -->
-        <section class="arrival container">
-            <div class="heading">
-                <h2>New Arrivals</h2>
+    </head>
+    <body>
+        <header class="header">
+            <div class="shipping">
+                <p>FREE SHIPPING ON ORDERS OVER $49</p>
             </div>
-            <ul class="arrival-img">
-                <li class="card-img">
-                    <div class="img-big">
-                        <a href="">
-                            <img src="./img/arrival-1.png" alt="arrival big">
-                        </a>
-                    </div>
-                    <div class="img-small">
-                        <a href="">
-                            <img src="./img/arrival-2.png" alt="arrival small">
-                        </a>
-                        <a href="">
-                            <img src="./img/arrival-3.png" alt="arrival small">
-                        </a>
-                    </div>
-                </li>
-                <li class="card-img">
-                    <a href="#">
-                        <img src="./img/arrival-4.png" alt="arival-bottom">
-                    </a>
-                    <a href="#">
-                        <img src="./img/arrival-5.png" alt="arival-bottom">
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <!-- New Arrivals section end -->
-        <!-- warehouse section start -->
-        <section class="warehouse container section-spacer">
-            <h2>Don’t miss the warehouse sale</h2>
-            <h3>Great deals on baby essentials only at kidsland.</h3>
-            <a href="#" class="white-btn">Shop Now</a>
-        </section>
-        <!-- warehouse section end -->
-        <!-- brand section start -->
-        <section class="brand container section-spacer">
-            <div class="heading">
-                <h2>Shop Top Brands</h2>
-            </div>
-            <ul class="cards-brand">
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="img">
-                            <img src="./img/brands-1.png" alt="">
-                        </div>
-                        <h3>NUNA</h3>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="img">
-                            <img src="./img/brands-2.png" alt="">
-                        </div>
-                        <h3>UPPABABY</h3>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="img">
-                            <img src="./img/brands-3.png" alt="">
-                        </div>
-                        <h3>CLEK</h3>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <div class="img">
-                            <img src="./img/brands-4.png" alt="">
-                        </div>
-                        <h3>SILVER CROSS</h3>
-                    </a>
-                </li>
-            </ul>
-
-        </section>
-        <!-- brand section end -->
-     </main>
-    <!-- footer start -->
-     <footer class="footer">
-        <div class="container">
-            <a href="#" class="brand-name">
-                <svg class="header-brand-name" xmlns="http://www.w3.org/2000/svg" width="104" height="32" viewBox="0 0 104 32" fill="none">
-                    <path d="M1.01562 5.18945H3.21211V19.1135L9.20544 13.3105H12.331L5.97248 19.3125L12.9808 26.4977H9.74248L3.21211 19.5653V26.4977H1.01562V5.18945Z" fill="#fff"/>
-                    <path d="M16.3792 6.53906C17.2814 6.53906 17.9849 7.27049 17.9849 8.14713C17.9849 9.02377 17.3083 9.7552 16.3792 9.7552C15.4501 9.7552 14.7734 9.07755 14.7734 8.14713C14.7734 7.21671 15.477 6.53906 16.3792 6.53906ZM15.2783 13.3048H17.4747V26.492H15.2783V13.3048Z" fill="#fff"/>
-                    <path d="M32.788 24.1528H32.7343C31.918 25.6479 30.033 26.8311 27.67 26.8311C23.9859 26.8311 21.0859 23.8463 21.0859 19.8987C21.0859 15.9511 23.8732 12.9663 28.0083 12.9663C32.1435 12.9663 31.5259 13.8106 32.7343 15.2197H32.788V5.18945H34.9845V26.4923H32.788V24.1528ZM28.1158 14.9938C25.2748 14.9938 23.4435 17.1343 23.4435 19.8987C23.4435 22.6631 25.2748 24.8036 28.1158 24.8036C30.9567 24.8036 32.788 22.6631 32.788 19.8987C32.788 17.1343 30.9567 14.9938 28.1158 14.9938Z" fill="#fff"/>
-                    <path d="M39.3132 23.0235C40.1832 24.0937 41.1445 24.7982 42.6912 24.7982C44.2379 24.7982 45.5912 24.2067 45.5912 22.7707C45.5912 21.3347 44.1842 20.9959 42.7771 20.684C40.2745 20.1193 38.1318 19.5868 38.1318 16.8493C38.1318 14.1119 40.6075 12.9609 43.0564 12.9609C45.5053 12.9609 46.6277 13.6655 47.5299 15.3542L45.6986 16.5643C45.1347 15.6339 44.2056 14.9885 42.9114 14.9885C41.6171 14.9885 40.3229 15.5801 40.3229 16.8224C40.3229 18.0648 41.8964 18.3982 43.6418 18.7371C45.9779 19.1888 47.9488 20.0332 47.9488 22.6846C47.9488 25.3361 45.3012 26.8258 42.6858 26.8258C40.0705 26.8258 38.8568 26.2342 37.5625 24.3734L39.3079 23.0181L39.3132 23.0235Z" fill="#fff"/>
-                    <path d="M51.2188 5.18945H53.4152V26.4923H51.2188V5.18945Z" fill="#fff"/>
-                    <path d="M57.6049 14.9944C58.9582 13.6122 60.9238 12.9668 62.841 12.9668C66.7238 12.9668 68.3564 14.8276 68.3564 18.5493V24.2125C68.3564 24.9708 68.4423 25.8206 68.5551 26.4928H66.4445C66.3049 25.9012 66.3049 25.0838 66.3049 24.5191H66.2512C65.3812 25.8744 63.9151 26.8317 61.9173 26.8317C59.9195 26.8317 57.0195 25.4764 57.0195 22.9164C57.0195 18.5493 62.0838 18.2965 65.3221 18.2965H66.1653V17.9039C66.1653 15.9893 64.9569 14.9997 62.9001 14.9997C60.8432 14.9997 60.0323 15.4784 58.9905 16.4357L57.6103 14.9997L57.6049 14.9944ZM63.9634 20.152C61.1762 20.152 59.3771 20.9103 59.3771 22.6905C59.3771 24.4707 60.6177 24.9708 62.2771 24.9708C64.8119 24.9708 66.1062 23.1369 66.1599 20.9964V20.152H63.9634Z" fill="#fff"/>
-                    <path d="M72.3745 16.4298C72.3745 15.2198 72.2617 14.1764 72.2617 13.2998H74.3454C74.3454 14.0043 74.3991 14.7357 74.3991 15.4672H74.4528C75.0436 14.171 76.6762 12.9609 78.8404 12.9609C82.3043 12.9609 83.851 15.1606 83.851 18.3445V26.487H81.6545V18.5703C81.6545 16.3707 80.6986 14.9939 78.6417 14.9939C76.5849 14.9939 74.5602 17.0537 74.5602 20.0655V26.4924H72.3638V16.4298H72.3745Z" fill="#fff"/>
-                    <path d="M98.9716 24.1528H98.9179C98.1016 25.6479 96.2166 26.8311 93.8536 26.8311C90.1695 26.8311 87.2695 23.8463 87.2695 19.8987C87.2695 15.9511 90.0568 12.9663 94.1919 12.9663C98.3271 12.9663 97.7095 13.8106 98.9179 15.2197H98.9716V5.18945H101.168V26.4923H98.9716V24.1528ZM94.2993 14.9938C91.4584 14.9938 89.6271 17.1343 89.6271 19.8987C89.6271 22.6631 91.4584 24.8036 94.2993 24.8036C97.1403 24.8036 98.9716 22.6631 98.9716 19.8987C98.9716 17.1343 97.1403 14.9938 94.2993 14.9938Z" fill="#fff"/>
+            <div class="brand container">
+                <svg class="menu-toggle" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 12C1 11.4477 1.44772 11 2 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13H2C1.44772 13 1 12.5523 1 12Z"
+                        fill="#121212" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 18C1 17.4477 1.44772 17 2 17H22C22.5523 17 23 17.4477 23 18C23 18.5523 22.5523 19 22 19H2C1.44772 19 1 18.5523 1 18Z"
+                        fill="#121212" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 6C1 5.44772 1.44772 5 2 5H22C22.5523 5 23 5.44772 23 6C23 6.55228 22.5523 7 22 7H2C1.44772 7 1 6.55228 1 6Z"
+                        fill="#121212" />
                 </svg>
-            </a>
-            <div class="company-info">
-                <div class="list-1">
-                    <h3>Company</h3>
-                    <ul class="list">
-                        <li class="list-item"><a href="#" class="list-link">About Us</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Kidsland Blog</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Store Locator</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Find a Registry</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Privacy Policy</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Terms & Conditions</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="list-1">
-                    <h3>Best Sellers</h3>
-                    <ul class="list">
-                        <li class="list-item"><a href="#" class="list-link">Doona Car Seat Stroller</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Nuna REVV Convertible Car Seat</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Uppababy Vista V2 Stroller</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Baby Bjorn Bouncer</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Britax One4Life All-in-One Car Seat</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Cybex Coya Stroller</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Veer Cruiser Wagon Stroller</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Cybex Priam 4 Stroller</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Babyzen YOYO2 Stroller</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Nuna RAVA Convertible Car Seat</a></li>
-                    </ul>
-                </div>
-                <div class="list-1">
-                    <h3>Brands</h3>
-                    <ul class="list">
-                        <li class="list-item"><a href="#" class="list-link">Nuna</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Uppababy</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Clek</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Babyzen</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Doona</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Cybex</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Silver Cross</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Babybjorn</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Maxi-Cosi</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Bugaboo</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Stokke</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Britax</a></li>
-                        <li class="list-item"><a href="#" class="list-link">Thule</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="follow-icon">
-                <h3>Follow Us</h3>
-                <div class="icon-footer">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
-                            <g clip-path="url(#clip0_1_1470)">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5068 0.5C9.37204 0.5 8.46419 0.836912 7.78221 1.49987C7.10023 2.15195 6.75868 3.08661 6.75868 4.29297V6.41225H4.25V9.28143H6.75868V16.65H9.76866V9.28143H12.2674L12.6508 6.41225H9.76866V4.57554C9.76866 4.10821 9.86782 3.76043 10.0639 3.52133C10.2611 3.2931 10.6413 3.17355 11.2053 3.17355H12.75V0.619549C12.2179 0.532604 11.4709 0.5 10.5068 0.5Z" fill="#303030"/>
+                <ul class="header-left">
+                    <li class="header-item"><a href="#"
+                            class="header-link">brands</a></li>
+                    <li class="header-item"><a href="#"
+                            class="header-link">Store Locator</a></li>
+                    <li class="header-item"><a href="#"
+                            class="header-link">Outlet</a></li>
+                    <li class="header-item"><a href="#"
+                            class="header-link">Sale</a></li>
+                </ul>
+                <h1>
+                    <a href class="brand-link">
+                        <svg class="header-brand-name"
+                            xmlns="http://www.w3.org/2000/svg" width="152"
+                            height="38" viewBox="0 0 104 32" fill="none">
+                            <path
+                                d="M1.01562 5.18945H3.21211V19.1135L9.20544 13.3105H12.331L5.97248 19.3125L12.9808 26.4977H9.74248L3.21211 19.5653V26.4977H1.01562V5.18945Z"
+                                fill="#585858" />
+                            <path
+                                d="M16.3792 6.53906C17.2814 6.53906 17.9849 7.27049 17.9849 8.14713C17.9849 9.02377 17.3083 9.7552 16.3792 9.7552C15.4501 9.7552 14.7734 9.07755 14.7734 8.14713C14.7734 7.21671 15.477 6.53906 16.3792 6.53906ZM15.2783 13.3048H17.4747V26.492H15.2783V13.3048Z"
+                                fill="#585858" />
+                            <path
+                                d="M32.788 24.1528H32.7343C31.918 25.6479 30.033 26.8311 27.67 26.8311C23.9859 26.8311 21.0859 23.8463 21.0859 19.8987C21.0859 15.9511 23.8732 12.9663 28.0083 12.9663C32.1435 12.9663 31.5259 13.8106 32.7343 15.2197H32.788V5.18945H34.9845V26.4923H32.788V24.1528ZM28.1158 14.9938C25.2748 14.9938 23.4435 17.1343 23.4435 19.8987C23.4435 22.6631 25.2748 24.8036 28.1158 24.8036C30.9567 24.8036 32.788 22.6631 32.788 19.8987C32.788 17.1343 30.9567 14.9938 28.1158 14.9938Z"
+                                fill="#585858" />
+                            <path
+                                d="M39.3132 23.0235C40.1832 24.0937 41.1445 24.7982 42.6912 24.7982C44.2379 24.7982 45.5912 24.2067 45.5912 22.7707C45.5912 21.3347 44.1842 20.9959 42.7771 20.684C40.2745 20.1193 38.1318 19.5868 38.1318 16.8493C38.1318 14.1119 40.6075 12.9609 43.0564 12.9609C45.5053 12.9609 46.6277 13.6655 47.5299 15.3542L45.6986 16.5643C45.1347 15.6339 44.2056 14.9885 42.9114 14.9885C41.6171 14.9885 40.3229 15.5801 40.3229 16.8224C40.3229 18.0648 41.8964 18.3982 43.6418 18.7371C45.9779 19.1888 47.9488 20.0332 47.9488 22.6846C47.9488 25.3361 45.3012 26.8258 42.6858 26.8258C40.0705 26.8258 38.8568 26.2342 37.5625 24.3734L39.3079 23.0181L39.3132 23.0235Z"
+                                fill="#585858" />
+                            <path
+                                d="M51.2188 5.18945H53.4152V26.4923H51.2188V5.18945Z"
+                                fill="#585858" />
+                            <path
+                                d="M57.6049 14.9944C58.9582 13.6122 60.9238 12.9668 62.841 12.9668C66.7238 12.9668 68.3564 14.8276 68.3564 18.5493V24.2125C68.3564 24.9708 68.4423 25.8206 68.5551 26.4928H66.4445C66.3049 25.9012 66.3049 25.0838 66.3049 24.5191H66.2512C65.3812 25.8744 63.9151 26.8317 61.9173 26.8317C59.9195 26.8317 57.0195 25.4764 57.0195 22.9164C57.0195 18.5493 62.0838 18.2965 65.3221 18.2965H66.1653V17.9039C66.1653 15.9893 64.9569 14.9997 62.9001 14.9997C60.8432 14.9997 60.0323 15.4784 58.9905 16.4357L57.6103 14.9997L57.6049 14.9944ZM63.9634 20.152C61.1762 20.152 59.3771 20.9103 59.3771 22.6905C59.3771 24.4707 60.6177 24.9708 62.2771 24.9708C64.8119 24.9708 66.1062 23.1369 66.1599 20.9964V20.152H63.9634Z"
+                                fill="#585858" />
+                            <path
+                                d="M72.3745 16.4298C72.3745 15.2198 72.2617 14.1764 72.2617 13.2998H74.3454C74.3454 14.0043 74.3991 14.7357 74.3991 15.4672H74.4528C75.0436 14.171 76.6762 12.9609 78.8404 12.9609C82.3043 12.9609 83.851 15.1606 83.851 18.3445V26.487H81.6545V18.5703C81.6545 16.3707 80.6986 14.9939 78.6417 14.9939C76.5849 14.9939 74.5602 17.0537 74.5602 20.0655V26.4924H72.3638V16.4298H72.3745Z"
+                                fill="#585858" />
+                            <path
+                                d="M98.9716 24.1528H98.9179C98.1016 25.6479 96.2166 26.8311 93.8536 26.8311C90.1695 26.8311 87.2695 23.8463 87.2695 19.8987C87.2695 15.9511 90.0568 12.9663 94.1919 12.9663C98.3271 12.9663 97.7095 13.8106 98.9179 15.2197H98.9716V5.18945H101.168V26.4923H98.9716V24.1528ZM94.2993 14.9938C91.4584 14.9938 89.6271 17.1343 89.6271 19.8987C89.6271 22.6631 91.4584 24.8036 94.2993 24.8036C97.1403 24.8036 98.9716 22.6631 98.9716 19.8987C98.9716 17.1343 97.1403 14.9938 94.2993 14.9938Z"
+                                fill="#585858" />
+                        </svg>
+                    </a>
+                </h1>
+                <ul class="header-right">
+                    <li class="input"><input type="text"
+                            placeholder="What are you looking for?">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M19.8087 18.8783L14.9628 13.9683C16.238 12.4444 17.0882 10.582 17.0882 8.46561C17.0032 3.80952 13.2625 0 8.50159 0C3.7407 0 0 3.80952 0 8.46561C0 13.1217 3.82572 16.9312 8.50159 16.9312C10.542 16.9312 12.4973 16.1693 14.0276 14.8995L18.8735 19.8095C19.1286 20.0635 19.5537 20.0635 19.8087 19.8095C20.0638 19.6402 20.0638 19.2169 19.8087 18.8783ZM1.27524 8.46561C1.27524 4.57143 4.42083 1.3545 8.41658 1.3545C12.4123 1.3545 15.5579 4.48677 15.5579 8.46561C15.5579 12.4444 12.4123 15.5767 8.41658 15.5767C4.42083 15.5767 1.27524 12.4444 1.27524 8.46561Z"
+                                fill="#4E4E4E" />
+                        </svg>
+                    </li>
+                    <li class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none">
+                            <g filter="url(#filter0_d_1_30)">
+                                <path
+                                    d="M22.6992 22.6998C20.2992 17.4998 16.6992 14.7998 11.9992 14.7998C7.39916 14.7998 3.79916 17.3998 1.29916 22.5998C1.09916 22.9998 1.29916 23.3998 1.69916 23.5998C2.09916 23.7998 2.49916 23.5998 2.69916 23.1998C4.89916 18.5998 7.99916 16.2998 11.9992 16.2998C15.9992 16.2998 19.0992 18.5998 21.2992 23.3998C21.4992 23.7998 21.8992 23.8998 22.2992 23.7998C22.6992 23.4998 22.8992 23.0998 22.6992 22.6998Z"
+                                    fill="#4E4E4E" />
+                                <path
+                                    d="M12.4992 12.8002C15.9992 12.8002 18.6992 10.0002 18.6992 6.6002C18.6992 3.2002 15.9992 0.200195 12.4992 0.200195C8.99922 0.200195 6.19922 3.0002 6.19922 6.5002C6.19922 10.0002 8.99922 12.8002 12.4992 12.8002ZM12.4992 1.8002C15.0992 1.8002 17.2992 3.9002 17.2992 6.6002C17.2992 9.3002 15.1992 11.4002 12.4992 11.4002C9.79922 11.4002 7.79922 9.10019 7.79922 6.5002C7.79922 3.9002 9.89922 1.8002 12.4992 1.8002Z"
+                                    fill="#4E4E4E" />
                             </g>
                             <defs>
-                                <clipPath id="clip0_1_1470">
-                                <rect width="17" height="17" fill="white" transform="translate(0 0.5)"/>
-                                </clipPath>
+                                <filter id="filter0_d_1_30" x="-4" y="0"
+                                    width="32" height="32"
+                                    filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feflood flood-opacity="0"
+                                        result="BackgroundImageFix" />
+                                    <fecolormatrix in="SourceAlpha"
+                                        type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                        result="hardAlpha" />
+                                    <feoffset dy="4" />
+                                    <fegaussianblur stdDeviation="2" />
+                                    <fecomposite in2="hardAlpha"
+                                        operator="out" />
+                                    <fecolormatrix type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                    <feblend mode="normal"
+                                        in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_1_30" />
+                                    <feblend mode="normal" in="SourceGraphic"
+                                        in2="effect1_dropShadow_1_30"
+                                        result="shape" />
+                                </filter>
                             </defs>
                         </svg>
-                    </a>
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
-                            <g clip-path="url(#clip0_1_1477)">
-                                <path d="M8.47204 2.45585C10.6124 2.45585 10.8636 2.46539 11.7096 2.50356C12.4919 2.53855 12.9149 2.66897 13.1979 2.7803C13.5732 2.92662 13.8403 3.09839 14.1202 3.37831C14.4001 3.65823 14.575 3.92543 14.7181 4.30077C14.8262 4.58387 14.9598 5.00693 14.9948 5.78944C15.0329 6.63556 15.0425 6.88685 15.0425 9.02759C15.0425 11.1683 15.0329 11.4196 14.9948 12.2658C14.9598 13.0483 14.8294 13.4713 14.7181 13.7544C14.5718 14.1298 14.4001 14.397 14.1202 14.6769C13.8403 14.9568 13.5732 15.1317 13.1979 15.2749C12.9149 15.383 12.4919 15.5166 11.7096 15.5516C10.8636 15.5898 10.6124 15.5993 8.47204 15.5993C6.33172 15.5993 6.08048 15.5898 5.23453 15.5516C4.45218 15.5166 4.0292 15.3862 3.74616 15.2749C3.37089 15.1286 3.10374 14.9568 2.82388 14.6769C2.54402 14.397 2.3691 14.1298 2.22599 13.7544C2.11786 13.4713 1.98429 13.0483 1.9493 12.2658C1.91114 11.4196 1.9016 11.1683 1.9016 9.02759C1.9016 6.88685 1.91114 6.63556 1.9493 5.78944C1.98429 5.00693 2.11468 4.58387 2.22599 4.30077C2.37228 3.92543 2.54402 3.65823 2.82388 3.37831C3.10374 3.09839 3.37089 2.92344 3.74616 2.7803C4.0292 2.67215 4.45218 2.53855 5.23453 2.50356C6.08048 2.46221 6.33172 2.45585 8.47204 2.45585ZM8.47204 1.01172C6.29674 1.01172 6.02323 1.02126 5.16774 1.05943C4.31543 1.0976 3.73344 1.23438 3.22459 1.4316C2.69667 1.63518 2.25143 1.91191 1.80619 2.35724C1.36095 2.80257 1.08745 3.25107 0.880733 3.77592C0.683557 4.28487 0.546805 4.86697 0.508642 5.72264C0.470478 6.57512 0.460938 6.84868 0.460938 9.02441C0.460938 11.2002 0.470478 11.4737 0.508642 12.3294C0.546805 13.1819 0.683557 13.764 0.880733 14.2761C1.08427 14.8041 1.36095 15.2494 1.80619 15.6948C2.25143 16.1401 2.69985 16.4137 3.22459 16.6204C3.73344 16.8176 4.31543 16.9544 5.17092 16.9926C6.02641 17.0307 6.29674 17.0403 8.47522 17.0403C10.6537 17.0403 10.924 17.0307 11.7795 16.9926C12.6318 16.9544 13.2138 16.8176 13.7259 16.6204C14.2538 16.4168 14.699 16.1401 15.1443 15.6948C15.5895 15.2494 15.863 14.8009 16.0697 14.2761C16.2669 13.7671 16.4036 13.185 16.4418 12.3294C16.48 11.4737 16.4895 11.2033 16.4895 9.02441C16.4895 6.8455 16.48 6.57512 16.4418 5.71946C16.4036 4.86697 16.2669 4.28487 16.0697 3.77274C15.8662 3.24471 15.5895 2.79939 15.1443 2.35406C14.699 1.90873 14.2506 1.63518 13.7259 1.42842C13.217 1.2312 12.635 1.09442 11.7795 1.05625C10.9209 1.02126 10.6473 1.01172 8.47204 1.01172Z" fill="#303030"/>
-                                <path d="M8.19087 4.57422C5.89137 4.57422 4.02344 6.43893 4.02344 8.74165C4.02344 11.0444 5.89137 12.9091 8.19087 12.9091C10.4904 12.9091 12.3583 11.0411 12.3583 8.74165C12.3583 6.44215 10.4904 4.57422 8.19087 4.57422ZM8.19087 11.4469C6.69652 11.4469 5.48558 10.236 5.48558 8.74165C5.48558 7.2473 6.69652 6.03636 8.19087 6.03636C9.68521 6.03636 10.8962 7.2473 10.8962 8.74165C10.8962 10.236 9.68521 11.4469 8.19087 11.4469Z" fill="#303030"/>
-                                <path d="M13.0008 6.49765C13.5319 6.49765 13.9625 6.06707 13.9625 5.53593C13.9625 5.00479 13.5319 4.57422 13.0008 4.57422C12.4696 4.57422 12.0391 5.00479 12.0391 5.53593C12.0391 6.06707 12.4696 6.49765 13.0008 6.49765Z" fill="#303030"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21.6005 2.29993C19.2005 0.399929 16.2005 0.599929 13.7005 2.29993C13.1005 2.69993 12.5005 3.29993 12.0005 3.99993C11.5005 3.29993 10.9005 2.69993 10.3005 2.29993C7.80048 0.599929 4.80048 0.299929 2.40048 2.29993C-0.199519 4.39993 -0.49952 8.29993 1.40048 11.4999C1.50048 11.5999 1.50048 11.6999 1.60048 11.7999L1.80048 12.0999L2.00048 12.3999C2.00048 12.4999 2.10048 12.4999 2.10048 12.5999L2.30048 12.9999L2.60048 13.3999L3.00048 13.7999L3.40048 14.1999L3.80048 14.6999L4.40048 15.3999L4.90048 15.8999L5.70048 16.6999L6.20048 17.2999L6.80048 17.8999L7.70048 18.7999L8.30048 19.3999L9.00048 20.0999L10.1005 21.1999L11.2005 22.2999C11.5005 22.5999 11.9005 22.5999 12.2005 22.2999C12.2005 22.2999 12.3005 22.2999 12.3005 22.1999C12.7005 21.8999 13.0005 21.4999 13.4005 21.1999L14.4005 20.2999L15.4005 19.3999C15.6005 19.2999 15.7005 19.0999 15.9005 18.9999L16.8005 18.1999L17.7005 17.2999L18.6005 16.3999L19.2005 15.7999L19.7005 15.2999L20.2005 14.7999L20.6005 14.2999L21.0005 13.7999C21.1005 13.6999 21.1005 13.6999 21.2005 13.5999L21.6005 13.1999C21.7005 13.0999 21.7005 13.0999 21.8005 12.9999L22.1005 12.5999L22.4005 12.1999C22.6005 11.9999 22.7005 11.7999 22.8005 11.5999C24.5005 8.29993 24.2005 4.39993 21.6005 2.29993ZM11.5005 8.19993C11.6005 7.89993 11.7005 7.49993 11.9005 7.09993L12.0005 6.89993L12.1005 7.09993C12.3005 7.49993 12.4005 7.89993 12.5005 8.19993C12.7005 8.89993 12.4005 9.19993 12.0005 9.19993C11.6005 9.19993 11.3005 8.79993 11.5005 8.19993ZM21.3005 10.7999C21.3005 10.8999 21.2005 10.9999 21.2005 10.9999L21.0005 11.2999L20.9005 11.3999L20.7005 11.6999L20.5005 11.9999L20.2005 12.2999L19.9005 12.6999L19.6005 13.0999L19.2005 13.4999L18.6005 14.0999L18.2005 14.4999L17.5005 15.1999L16.7005 15.9999L16.2005 16.4999L15.3005 17.2999L14.1005 18.4999L12.8005 19.6999L11.8005 20.5999L10.9005 19.6999L9.60048 18.3999L8.70048 17.4999L7.90048 16.5999L7.00048 15.8999L6.30048 15.0999L5.80048 14.5999L5.20048 13.9999L4.80048 13.5999L4.40048 13.1999L4.10048 12.7999L3.70048 12.2999L3.40048 11.9999L3.20048 11.6999L3.00048 11.2999L2.80048 10.9999C2.70048 10.8999 2.70048 10.7999 2.60048 10.7999C1.10048 8.19993 1.30048 5.09993 3.30048 3.49993C5.10048 1.99993 7.40048 2.19993 9.40048 3.59993C10.0005 3.99993 10.6005 4.59993 11.1005 5.39993C10.6005 6.29993 10.2005 7.09993 10.0005 7.79993C9.60048 9.29993 10.5005 10.6999 12.0005 10.7999C13.5005 10.7999 14.4005 9.39993 14.0005 7.89993V7.79993V7.69993C14.0005 7.69993 14.0005 7.69993 14.0005 7.59993C13.8005 6.89993 13.4005 6.19993 13.0005 5.39993C13.4005 4.59993 14.0005 3.99993 14.5005 3.59993C16.5005 2.19993 18.8005 1.99993 20.6005 3.49993C22.7005 5.09993 22.9005 8.19993 21.3005 10.7999Z"
+                                fill="#4E4E4E" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_1_37)">
+                                <path
+                                    d="M21.7007 5.9002C21.7007 5.5002 21.3007 5.2002 21.0007 5.2002H17.0007V5.0002V4.8002C16.8007 2.2002 14.7007 0.200195 12.1007 0.200195C9.4007 0.200195 7.2007 2.3002 7.1007 5.0002V5.2002H3.0007C2.6007 5.2002 2.3007 5.5002 2.3007 5.9002L0.300698 22.3002C0.200698 22.7002 0.600698 23.1002 1.0007 23.1002H23.0007C23.5007 23.1002 23.8007 22.7002 23.7007 22.3002L21.7007 5.9002ZM8.6007 5.1002V4.9002C8.8007 3.1002 10.3007 1.8002 12.1007 1.8002C14.0007 1.8002 15.5007 3.3002 15.6007 5.1002V5.3002H8.6007V5.1002ZM1.8007 21.7002L3.7007 6.8002H7.0007L6.8007 10.2002C6.3007 10.4002 6.0007 10.9002 6.0007 11.5002C6.0007 12.3002 6.7007 13.0002 7.5007 13.0002C8.3007 13.0002 9.0007 12.3002 9.0007 11.5002C9.0007 11.0002 8.7007 10.5002 8.3007 10.2002L8.5007 6.7002H15.6007L15.7007 10.2002C15.3007 10.5002 15.0007 11.0002 15.0007 11.5002C15.0007 12.3002 15.7007 13.0002 16.5007 13.0002C17.3007 13.0002 18.0007 12.3002 18.0007 11.5002C18.0007 10.9002 17.7007 10.4002 17.2007 10.2002L17.1007 6.8002H20.4007L22.2007 21.7002H1.8007Z"
+                                    fill="#4E4E4E" />
                             </g>
                             <defs>
-                                <clipPath id="clip0_1_1477">
-                                <rect width="17" height="17" fill="white" transform="translate(0 0.5)"/>
-                                </clipPath>
+                                <clippath id="clip0_1_37">
+                                    <rect width="24" height="24" fill="white" />
+                                </clippath>
                             </defs>
                         </svg>
-                    </a>
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 14" fill="none">
-                            <path d="M8.49473 0.5C8.49473 0.5 3.18154 0.500006 1.84799 0.87865C1.13397 1.09665 0.546026 1.73912 0.346519 2.53082C7.95722e-06 3.98802 0 7.00574 0 7.00574C0 7.00574 7.95722e-06 10.0349 0.346519 11.4692C0.546026 12.2609 1.12347 12.8919 1.84799 13.1099C3.19204 13.5 8.49473 13.5 8.49473 13.5C8.49473 13.5 13.8185 13.5 15.152 13.1214C15.8765 12.9033 16.4539 12.2838 16.6429 11.4807C17 10.0349 17 7.01722 17 7.01722C17 7.01722 17.0105 3.98802 16.6429 2.53082C16.4539 1.73912 15.8765 1.10814 15.152 0.901608C13.8185 0.500018 8.49473 0.5 8.49473 0.5ZM7 4.5L12 7.50619L7 10.5V4.5Z" fill="#303030"/>
-                        </svg>
-                    </a>
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 15 18" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.91493 0.5C4.38212 0.5 0.890625 2.82976 0.890625 6.60029C0.890625 8.99817 2.25417 10.3606 3.08056 10.3606C3.42144 10.3606 3.61771 9.42052 3.61771 9.15485C3.61771 8.83808 2.80165 8.16368 2.80165 6.84552C2.80165 4.10704 4.90894 2.16557 7.63602 2.16557C9.9809 2.16557 11.7163 3.48372 11.7163 5.90545C11.7163 7.71407 10.9829 11.1065 8.60703 11.1065C7.74965 11.1065 7.01623 10.4934 7.01623 9.61467C7.01623 8.32717 7.92526 7.08054 7.92526 5.75217C7.92526 3.49735 4.69201 3.90608 4.69201 6.63094C4.69201 7.20316 4.76432 7.83669 5.02257 8.35782C4.5474 10.381 3.57639 13.3954 3.57639 15.4799C3.57639 16.1237 3.66936 16.7572 3.73134 17.401C3.84841 17.5304 3.78987 17.5168 3.96892 17.4521C5.70434 15.1019 5.64236 14.642 6.42743 11.5663C6.85095 12.3634 7.94592 12.7925 8.81363 12.7925C12.4704 12.7925 14.1128 9.26725 14.1128 6.08937C14.1128 2.70714 11.1585 0.5 7.91493 0.5Z" fill="#303030"/>
-                        </svg>
-                    </a>
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9536 3.15691C15.7075 2.69909 16.2164 2.0433 16.483 1.18953C15.7931 1.61023 15.0574 1.89482 14.2746 2.05567C13.5859 1.30089 12.7392 0.929688 11.7333 0.929688C10.772 0.929688 9.95182 1.27614 9.27277 1.96906C8.59492 2.66197 8.2548 3.51574 8.2548 4.49324C8.2548 4.76546 8.28374 5.03767 8.34164 5.30989C6.91961 5.23565 5.58684 4.87682 4.34091 4.20865C3.09498 3.55286 2.03841 2.67434 1.17 1.58548C0.853993 2.12991 0.695991 2.73621 0.695991 3.37963C0.695991 3.9983 0.835901 4.55511 1.11572 5.08717C1.39554 5.60685 1.77306 6.02755 2.24587 6.34926C1.68622 6.32451 1.16276 6.17603 0.67428 5.90382V5.94094C0.67428 6.80708 0.938422 7.56186 1.4655 8.21765C1.99378 8.86107 2.65957 9.28177 3.46285 9.44262C3.16132 9.52924 2.85617 9.56636 2.5474 9.56636C2.34718 9.56636 2.12766 9.55398 1.89126 9.51686C2.11319 10.2222 2.52207 10.8161 3.1191 11.2739C3.71493 11.7317 4.38915 11.9668 5.14298 11.9916C3.87896 13.0062 2.44005 13.5135 0.825046 13.5135C0.516277 13.5135 0.236456 13.5011 -0.015625 13.464C1.60059 14.5405 3.38083 15.0725 5.32632 15.0725C6.56139 15.0725 7.72048 14.8746 8.80479 14.4662C9.88789 14.0703 10.8142 13.5259 11.5825 12.8577C12.3508 12.1772 13.013 11.41 13.5702 10.5315C14.1262 9.65297 14.5399 8.73734 14.8137 7.78458C15.0863 6.83182 15.2226 5.87907 15.2226 4.91394C15.2226 4.71596 15.219 4.55511 15.2117 4.45612C15.8944 3.94881 16.4758 3.33014 16.9558 2.61248C16.2888 2.89707 15.6206 3.08267 14.9536 3.15691Z" fill="#303030"/>
-                        </svg>
-                    </a>
+                    </li>
+
+                </ul>
+            </div>
+            <nav class="nav container">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Baby Gear
+                            & Travel</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Baby Care
+                            & Feeding</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Baby
+                            Apparel & Accessories</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Toys &
+                            Learning</a></li>
+                    <li class="nav-item"><a href="#"
+                            class="nav-link">pet</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">shop by
+                            brand</a></li>
+                    <li class="nav-item"><a href="#"
+                            class="nav-link">sale</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <!-- hero-section start -->
+        <section class="hero">
+            <div class="container">
+                <h2>Discover the Finest Baby Essentials for Your Little One</h2>
+                <p>Explore our collection of luxury strollers, car seats, and
+                    newborn must-haves.</p>
+                <a href="#">SHOP NOW</a>
+            </div>
+        </section>
+        <!-- hero-section end -->
+        <main>
+            <!-- category section star -->
+            <section class="category-link container section-spacer">
+                <ul class="category-list">
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-1.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>BABY STROLLERS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-2.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>INFANT CAR SEATS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-3.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>CONVERTIBLE CAR SEATS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-4.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>BABY HIGH CHAIRS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-5.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>TRAVEL CRIBS & PLAYARDS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-6.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>BABY CARRIERS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-7.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>LIGHTWEIGHT STROLLERS</h2>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-link">
+                            <div class="link-img">
+                                <img src="./img/category-item-8.png"
+                                    alt="link img 1">
+                            </div>
+                            <h2>BABY STROLLERS</h2>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- category section end -->
+            <!-- Traditional stroller section start -->
+            <section class="traditional-stroller container section-spacer">
+                <h2>Traditional stroller steering, compact fold to create the
+                    ideal vehicle for getting around town.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Est quam elementum
+                    ultricies aliquet. Lectus at lectus ut in integer ac et
+                    dolor porttitor. Lacus morbi libero fringilla sit nec felis.
+                    Scelerisque tempus rutrum tincidunt in. Lorem ipsum dolor
+                    sit amet consectetur. Lorem ipsum dolor sit amet
+                    consectetur. Est quam elementum ultricies aliquet.</p>
+            </section>
+            <!-- Traditional stroller section end -->
+            <!-- stroller section start -->
+            <section class="stroller container section-spacer">
+                <ul class="info-list">
+                    <li class="info-item">
+                        <a href="#" class="info-link">
+                            <div class="info-card">
+                                <img src="./img/info-1.png" alt="nuna info">
+                                <div class="info-text">
+                                    <h2>Made for Strolling</h2>
+                                    <p>Nuna's premium strollers go the distance
+                                        with tough tires ready for any terrain
+                                        and progressive suspension technology
+                                        for top-of-the-line comfort.</p>
+                                    <span class="link">SHOP NOW</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="info-item">
+                        <a href="#" class="info-link">
+                            <div class="info-card">
+                                <img src="./img/info-2.png" alt="nuna info">
+                                <div class="info-text">
+                                    <h2>Crafted for Growing</h2>
+                                    <p>Nuna's luxurious car seats are engineered
+                                        for growth keeping baby to 'tween safe
+                                        at every stage. </p>
+                                    <span class="link">SHOP NOW</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- stroller section end -->
+            <!-- top category section start -->
+            <section class="top-category container section-spacer">
+                <div class="heading"><h2>Top Categories</h2></div>
+                <ul class="top-cate-card">
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="card-img">
+                                <img src="./img/top-1.png" width="327"
+                                    height="450" loading="lazy" alt>
+                            </div>
+                            <h3>Men’s Apparel & Accessories</h3>
+                        </a>
+                    </li>
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="card-img">
+                                <img src="./img/top-2.png" width="327"
+                                    height="450" loading="lazy" alt>
+                            </div>
+                            <h3>Women’s Apparel & Accessories </h3>
+                        </a>
+                    </li>
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="card-img">
+                                <img src="./img/top-3.png" width="327"
+                                    height="450" loading="lazy" alt>
+                            </div>
+                            <h3>Kid’s Apparel & Accessories</h3>
+                        </a>
+                    </li>
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="card-img">
+                                <img src="./img/top-4.png" width="327"
+                                    height="450" loading="lazy" alt>
+                            </div>
+                            <h3>Travel</h3>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- top category section end -->
+            <!-- New Arrivals section start -->
+            <section class="arrival container">
+                <div class="heading">
+                    <h2>New Arrivals</h2>
+                </div>
+                <ul class="arrival-img">
+                    <li class="card-img">
+                        <div class="img-big">
+                            <a href>
+                                <img src="./img/arrival-1.png"
+                                    alt="arrival big">
+                            </a>
+                        </div>
+                        <div class="img-small">
+                            <a href>
+                                <img src="./img/arrival-2.png"
+                                    alt="arrival small">
+                            </a>
+                            <a href>
+                                <img src="./img/arrival-3.png"
+                                    alt="arrival small">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="card-img">
+                        <a href="#">
+                            <img src="./img/arrival-4.png" alt="arival-bottom">
+                        </a>
+                        <a href="#">
+                            <img src="./img/arrival-5.png" alt="arival-bottom">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- New Arrivals section end -->
+            <!-- warehouse section start -->
+            <section class="warehouse container section-spacer">
+                <h2>Don’t miss the warehouse sale</h2>
+                <h3>Great deals on baby essentials only at kidsland.</h3>
+                <a href="#" class="white-btn">Shop Now</a>
+            </section>
+            <!-- warehouse section end -->
+            <!-- brand section start -->
+            <section class="brand container section-spacer">
+                <div class="heading">
+                    <h2>Shop Top Brands</h2>
+                </div>
+                <ul class="cards-brand">
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="img">
+                                <img src="./img/brands-1.png" alt>
+                            </div>
+                            <h3>NUNA</h3>
+                        </a>
+                    </li>
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="img">
+                                <img src="./img/brands-2.png" alt>
+                            </div>
+                            <h3>UPPABABY</h3>
+                        </a>
+                    </li>
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="img">
+                                <img src="./img/brands-3.png" alt>
+                            </div>
+                            <h3>CLEK</h3>
+                        </a>
+                    </li>
+                    <li class="card-item">
+                        <a href="#" class="card-link">
+                            <div class="img">
+                                <img src="./img/brands-4.png" alt>
+                            </div>
+                            <h3>SILVER CROSS</h3>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+            <!-- brand section end -->
+        </main>
+        <!-- footer start -->
+        <footer class="footer">
+            <div class="container">
+                <a href="#" class="brand-name">
+                    <svg class="header-brand-name"
+                        xmlns="http://www.w3.org/2000/svg" width="104"
+                        height="32" viewBox="0 0 104 32" fill="none">
+                        <path
+                            d="M1.01562 5.18945H3.21211V19.1135L9.20544 13.3105H12.331L5.97248 19.3125L12.9808 26.4977H9.74248L3.21211 19.5653V26.4977H1.01562V5.18945Z"
+                            fill="#fff" />
+                        <path
+                            d="M16.3792 6.53906C17.2814 6.53906 17.9849 7.27049 17.9849 8.14713C17.9849 9.02377 17.3083 9.7552 16.3792 9.7552C15.4501 9.7552 14.7734 9.07755 14.7734 8.14713C14.7734 7.21671 15.477 6.53906 16.3792 6.53906ZM15.2783 13.3048H17.4747V26.492H15.2783V13.3048Z"
+                            fill="#fff" />
+                        <path
+                            d="M32.788 24.1528H32.7343C31.918 25.6479 30.033 26.8311 27.67 26.8311C23.9859 26.8311 21.0859 23.8463 21.0859 19.8987C21.0859 15.9511 23.8732 12.9663 28.0083 12.9663C32.1435 12.9663 31.5259 13.8106 32.7343 15.2197H32.788V5.18945H34.9845V26.4923H32.788V24.1528ZM28.1158 14.9938C25.2748 14.9938 23.4435 17.1343 23.4435 19.8987C23.4435 22.6631 25.2748 24.8036 28.1158 24.8036C30.9567 24.8036 32.788 22.6631 32.788 19.8987C32.788 17.1343 30.9567 14.9938 28.1158 14.9938Z"
+                            fill="#fff" />
+                        <path
+                            d="M39.3132 23.0235C40.1832 24.0937 41.1445 24.7982 42.6912 24.7982C44.2379 24.7982 45.5912 24.2067 45.5912 22.7707C45.5912 21.3347 44.1842 20.9959 42.7771 20.684C40.2745 20.1193 38.1318 19.5868 38.1318 16.8493C38.1318 14.1119 40.6075 12.9609 43.0564 12.9609C45.5053 12.9609 46.6277 13.6655 47.5299 15.3542L45.6986 16.5643C45.1347 15.6339 44.2056 14.9885 42.9114 14.9885C41.6171 14.9885 40.3229 15.5801 40.3229 16.8224C40.3229 18.0648 41.8964 18.3982 43.6418 18.7371C45.9779 19.1888 47.9488 20.0332 47.9488 22.6846C47.9488 25.3361 45.3012 26.8258 42.6858 26.8258C40.0705 26.8258 38.8568 26.2342 37.5625 24.3734L39.3079 23.0181L39.3132 23.0235Z"
+                            fill="#fff" />
+                        <path
+                            d="M51.2188 5.18945H53.4152V26.4923H51.2188V5.18945Z"
+                            fill="#fff" />
+                        <path
+                            d="M57.6049 14.9944C58.9582 13.6122 60.9238 12.9668 62.841 12.9668C66.7238 12.9668 68.3564 14.8276 68.3564 18.5493V24.2125C68.3564 24.9708 68.4423 25.8206 68.5551 26.4928H66.4445C66.3049 25.9012 66.3049 25.0838 66.3049 24.5191H66.2512C65.3812 25.8744 63.9151 26.8317 61.9173 26.8317C59.9195 26.8317 57.0195 25.4764 57.0195 22.9164C57.0195 18.5493 62.0838 18.2965 65.3221 18.2965H66.1653V17.9039C66.1653 15.9893 64.9569 14.9997 62.9001 14.9997C60.8432 14.9997 60.0323 15.4784 58.9905 16.4357L57.6103 14.9997L57.6049 14.9944ZM63.9634 20.152C61.1762 20.152 59.3771 20.9103 59.3771 22.6905C59.3771 24.4707 60.6177 24.9708 62.2771 24.9708C64.8119 24.9708 66.1062 23.1369 66.1599 20.9964V20.152H63.9634Z"
+                            fill="#fff" />
+                        <path
+                            d="M72.3745 16.4298C72.3745 15.2198 72.2617 14.1764 72.2617 13.2998H74.3454C74.3454 14.0043 74.3991 14.7357 74.3991 15.4672H74.4528C75.0436 14.171 76.6762 12.9609 78.8404 12.9609C82.3043 12.9609 83.851 15.1606 83.851 18.3445V26.487H81.6545V18.5703C81.6545 16.3707 80.6986 14.9939 78.6417 14.9939C76.5849 14.9939 74.5602 17.0537 74.5602 20.0655V26.4924H72.3638V16.4298H72.3745Z"
+                            fill="#fff" />
+                        <path
+                            d="M98.9716 24.1528H98.9179C98.1016 25.6479 96.2166 26.8311 93.8536 26.8311C90.1695 26.8311 87.2695 23.8463 87.2695 19.8987C87.2695 15.9511 90.0568 12.9663 94.1919 12.9663C98.3271 12.9663 97.7095 13.8106 98.9179 15.2197H98.9716V5.18945H101.168V26.4923H98.9716V24.1528ZM94.2993 14.9938C91.4584 14.9938 89.6271 17.1343 89.6271 19.8987C89.6271 22.6631 91.4584 24.8036 94.2993 24.8036C97.1403 24.8036 98.9716 22.6631 98.9716 19.8987C98.9716 17.1343 97.1403 14.9938 94.2993 14.9938Z"
+                            fill="#fff" />
+                    </svg>
+                </a>
+                <div class="company-info">
+                    <div class="list-1">
+                        <h3>Company</h3>
+                        <ul class="list">
+                            <li class="list-item"><a href="#"
+                                    class="list-link">About Us</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Kidsland Blog</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Store Locator</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Find a Registry</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Privacy Policy</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Terms &
+                                    Conditions</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-1">
+                        <h3>Best Sellers</h3>
+                        <ul class="list">
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Doona Car Seat
+                                    Stroller</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Nuna REVV Convertible Car
+                                    Seat</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Uppababy Vista V2
+                                    Stroller</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Baby Bjorn
+                                    Bouncer</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Britax One4Life All-in-One
+                                    Car Seat</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Cybex Coya
+                                    Stroller</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Veer Cruiser Wagon
+                                    Stroller</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Cybex Priam 4
+                                    Stroller</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Babyzen YOYO2
+                                    Stroller</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Nuna RAVA Convertible Car
+                                    Seat</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-1">
+                        <h3>Brands</h3>
+                        <ul class="list">
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Nuna</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Uppababy</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Clek</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Babyzen</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Doona</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Cybex</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Silver Cross</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Babybjorn</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Maxi-Cosi</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Bugaboo</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Stokke</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Britax</a></li>
+                            <li class="list-item"><a href="#"
+                                    class="list-link">Thule</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="follow-icon">
+                    <h3>Follow Us</h3>
+                    <div class="icon-footer">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_1_1470)">
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M10.5068 0.5C9.37204 0.5 8.46419 0.836912 7.78221 1.49987C7.10023 2.15195 6.75868 3.08661 6.75868 4.29297V6.41225H4.25V9.28143H6.75868V16.65H9.76866V9.28143H12.2674L12.6508 6.41225H9.76866V4.57554C9.76866 4.10821 9.86782 3.76043 10.0639 3.52133C10.2611 3.2931 10.6413 3.17355 11.2053 3.17355H12.75V0.619549C12.2179 0.532604 11.4709 0.5 10.5068 0.5Z"
+                                        fill="#303030" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_1_1470">
+                                        <rect width="17" height="17"
+                                            fill="white"
+                                            transform="translate(0 0.5)" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                height="18" viewBox="0 0 17 18" fill="none">
+                                <g clip-path="url(#clip0_1_1477)">
+                                    <path
+                                        d="M8.47204 2.45585C10.6124 2.45585 10.8636 2.46539 11.7096 2.50356C12.4919 2.53855 12.9149 2.66897 13.1979 2.7803C13.5732 2.92662 13.8403 3.09839 14.1202 3.37831C14.4001 3.65823 14.575 3.92543 14.7181 4.30077C14.8262 4.58387 14.9598 5.00693 14.9948 5.78944C15.0329 6.63556 15.0425 6.88685 15.0425 9.02759C15.0425 11.1683 15.0329 11.4196 14.9948 12.2658C14.9598 13.0483 14.8294 13.4713 14.7181 13.7544C14.5718 14.1298 14.4001 14.397 14.1202 14.6769C13.8403 14.9568 13.5732 15.1317 13.1979 15.2749C12.9149 15.383 12.4919 15.5166 11.7096 15.5516C10.8636 15.5898 10.6124 15.5993 8.47204 15.5993C6.33172 15.5993 6.08048 15.5898 5.23453 15.5516C4.45218 15.5166 4.0292 15.3862 3.74616 15.2749C3.37089 15.1286 3.10374 14.9568 2.82388 14.6769C2.54402 14.397 2.3691 14.1298 2.22599 13.7544C2.11786 13.4713 1.98429 13.0483 1.9493 12.2658C1.91114 11.4196 1.9016 11.1683 1.9016 9.02759C1.9016 6.88685 1.91114 6.63556 1.9493 5.78944C1.98429 5.00693 2.11468 4.58387 2.22599 4.30077C2.37228 3.92543 2.54402 3.65823 2.82388 3.37831C3.10374 3.09839 3.37089 2.92344 3.74616 2.7803C4.0292 2.67215 4.45218 2.53855 5.23453 2.50356C6.08048 2.46221 6.33172 2.45585 8.47204 2.45585ZM8.47204 1.01172C6.29674 1.01172 6.02323 1.02126 5.16774 1.05943C4.31543 1.0976 3.73344 1.23438 3.22459 1.4316C2.69667 1.63518 2.25143 1.91191 1.80619 2.35724C1.36095 2.80257 1.08745 3.25107 0.880733 3.77592C0.683557 4.28487 0.546805 4.86697 0.508642 5.72264C0.470478 6.57512 0.460938 6.84868 0.460938 9.02441C0.460938 11.2002 0.470478 11.4737 0.508642 12.3294C0.546805 13.1819 0.683557 13.764 0.880733 14.2761C1.08427 14.8041 1.36095 15.2494 1.80619 15.6948C2.25143 16.1401 2.69985 16.4137 3.22459 16.6204C3.73344 16.8176 4.31543 16.9544 5.17092 16.9926C6.02641 17.0307 6.29674 17.0403 8.47522 17.0403C10.6537 17.0403 10.924 17.0307 11.7795 16.9926C12.6318 16.9544 13.2138 16.8176 13.7259 16.6204C14.2538 16.4168 14.699 16.1401 15.1443 15.6948C15.5895 15.2494 15.863 14.8009 16.0697 14.2761C16.2669 13.7671 16.4036 13.185 16.4418 12.3294C16.48 11.4737 16.4895 11.2033 16.4895 9.02441C16.4895 6.8455 16.48 6.57512 16.4418 5.71946C16.4036 4.86697 16.2669 4.28487 16.0697 3.77274C15.8662 3.24471 15.5895 2.79939 15.1443 2.35406C14.699 1.90873 14.2506 1.63518 13.7259 1.42842C13.217 1.2312 12.635 1.09442 11.7795 1.05625C10.9209 1.02126 10.6473 1.01172 8.47204 1.01172Z"
+                                        fill="#303030" />
+                                    <path
+                                        d="M8.19087 4.57422C5.89137 4.57422 4.02344 6.43893 4.02344 8.74165C4.02344 11.0444 5.89137 12.9091 8.19087 12.9091C10.4904 12.9091 12.3583 11.0411 12.3583 8.74165C12.3583 6.44215 10.4904 4.57422 8.19087 4.57422ZM8.19087 11.4469C6.69652 11.4469 5.48558 10.236 5.48558 8.74165C5.48558 7.2473 6.69652 6.03636 8.19087 6.03636C9.68521 6.03636 10.8962 7.2473 10.8962 8.74165C10.8962 10.236 9.68521 11.4469 8.19087 11.4469Z"
+                                        fill="#303030" />
+                                    <path
+                                        d="M13.0008 6.49765C13.5319 6.49765 13.9625 6.06707 13.9625 5.53593C13.9625 5.00479 13.5319 4.57422 13.0008 4.57422C12.4696 4.57422 12.0391 5.00479 12.0391 5.53593C12.0391 6.06707 12.4696 6.49765 13.0008 6.49765Z"
+                                        fill="#303030" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_1_1477">
+                                        <rect width="17" height="17"
+                                            fill="white"
+                                            transform="translate(0 0.5)" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                height="14" viewBox="0 0 17 14" fill="none">
+                                <path
+                                    d="M8.49473 0.5C8.49473 0.5 3.18154 0.500006 1.84799 0.87865C1.13397 1.09665 0.546026 1.73912 0.346519 2.53082C7.95722e-06 3.98802 0 7.00574 0 7.00574C0 7.00574 7.95722e-06 10.0349 0.346519 11.4692C0.546026 12.2609 1.12347 12.8919 1.84799 13.1099C3.19204 13.5 8.49473 13.5 8.49473 13.5C8.49473 13.5 13.8185 13.5 15.152 13.1214C15.8765 12.9033 16.4539 12.2838 16.6429 11.4807C17 10.0349 17 7.01722 17 7.01722C17 7.01722 17.0105 3.98802 16.6429 2.53082C16.4539 1.73912 15.8765 1.10814 15.152 0.901608C13.8185 0.500018 8.49473 0.5 8.49473 0.5ZM7 4.5L12 7.50619L7 10.5V4.5Z"
+                                    fill="#303030" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                height="18" viewBox="0 0 15 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.91493 0.5C4.38212 0.5 0.890625 2.82976 0.890625 6.60029C0.890625 8.99817 2.25417 10.3606 3.08056 10.3606C3.42144 10.3606 3.61771 9.42052 3.61771 9.15485C3.61771 8.83808 2.80165 8.16368 2.80165 6.84552C2.80165 4.10704 4.90894 2.16557 7.63602 2.16557C9.9809 2.16557 11.7163 3.48372 11.7163 5.90545C11.7163 7.71407 10.9829 11.1065 8.60703 11.1065C7.74965 11.1065 7.01623 10.4934 7.01623 9.61467C7.01623 8.32717 7.92526 7.08054 7.92526 5.75217C7.92526 3.49735 4.69201 3.90608 4.69201 6.63094C4.69201 7.20316 4.76432 7.83669 5.02257 8.35782C4.5474 10.381 3.57639 13.3954 3.57639 15.4799C3.57639 16.1237 3.66936 16.7572 3.73134 17.401C3.84841 17.5304 3.78987 17.5168 3.96892 17.4521C5.70434 15.1019 5.64236 14.642 6.42743 11.5663C6.85095 12.3634 7.94592 12.7925 8.81363 12.7925C12.4704 12.7925 14.1128 9.26725 14.1128 6.08937C14.1128 2.70714 11.1585 0.5 7.91493 0.5Z"
+                                    fill="#303030" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                height="16" viewBox="0 0 17 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.9536 3.15691C15.7075 2.69909 16.2164 2.0433 16.483 1.18953C15.7931 1.61023 15.0574 1.89482 14.2746 2.05567C13.5859 1.30089 12.7392 0.929688 11.7333 0.929688C10.772 0.929688 9.95182 1.27614 9.27277 1.96906C8.59492 2.66197 8.2548 3.51574 8.2548 4.49324C8.2548 4.76546 8.28374 5.03767 8.34164 5.30989C6.91961 5.23565 5.58684 4.87682 4.34091 4.20865C3.09498 3.55286 2.03841 2.67434 1.17 1.58548C0.853993 2.12991 0.695991 2.73621 0.695991 3.37963C0.695991 3.9983 0.835901 4.55511 1.11572 5.08717C1.39554 5.60685 1.77306 6.02755 2.24587 6.34926C1.68622 6.32451 1.16276 6.17603 0.67428 5.90382V5.94094C0.67428 6.80708 0.938422 7.56186 1.4655 8.21765C1.99378 8.86107 2.65957 9.28177 3.46285 9.44262C3.16132 9.52924 2.85617 9.56636 2.5474 9.56636C2.34718 9.56636 2.12766 9.55398 1.89126 9.51686C2.11319 10.2222 2.52207 10.8161 3.1191 11.2739C3.71493 11.7317 4.38915 11.9668 5.14298 11.9916C3.87896 13.0062 2.44005 13.5135 0.825046 13.5135C0.516277 13.5135 0.236456 13.5011 -0.015625 13.464C1.60059 14.5405 3.38083 15.0725 5.32632 15.0725C6.56139 15.0725 7.72048 14.8746 8.80479 14.4662C9.88789 14.0703 10.8142 13.5259 11.5825 12.8577C12.3508 12.1772 13.013 11.41 13.5702 10.5315C14.1262 9.65297 14.5399 8.73734 14.8137 7.78458C15.0863 6.83182 15.2226 5.87907 15.2226 4.91394C15.2226 4.71596 15.219 4.55511 15.2117 4.45612C15.8944 3.94881 16.4758 3.33014 16.9558 2.61248C16.2888 2.89707 15.6206 3.08267 14.9536 3.15691Z"
+                                    fill="#303030" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-     </footer>
-    <!-- footer end -->
-      <script src="./script/script.js"></script>
-</body>
+        </footer>
+        <!-- footer end -->
+        <script src="./script/script.js"></script>
+    </body>
 </html>

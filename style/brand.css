@@ -13,13 +13,16 @@
 }
 .brand .cards-brand{
     margin-top: 28px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    display: flex;
+    overflow-x: scroll;
     gap: 25px;
-    width: fit-content;
+    width: 100%;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
     margin-inline:auto ;
 }
 .brand .card-item{
+    flex: 0 0 90%;
     margin: 16px 0;
     position: relative;
 }
@@ -55,5 +58,8 @@
     .brand .cards-brand{
         width: auto;
         margin-top: 48px;
+    }
+    .brand .card-item{
+        flex: 0 0 24%;
     }
 }
